@@ -1,0 +1,26 @@
+{
+  "name": "api-rest-mvc",
+  "version": "1.0.0",
+  "description": "Api rest practice",
+  "main": "app.js",
+  "type" : "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mvc"
+  ],
+  "author": "Nicolas Castellanos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "crypto": "1.0.1",
+    "express": "4.18.2",
+    "zod": "3.22.4"
+  }
+}

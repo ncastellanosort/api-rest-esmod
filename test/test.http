@@ -1,0 +1,44 @@
+GET http://localhost:1234/movies
+###
+
+GET http://localhost:1234/movies/director/christophernolan
+###
+
+GET http://localhost:1234/movies/year/2010
+
+###
+GET http://localhost:1234/movies/genre?genre=Action
+###
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "title": "The Godfasddw",
+  "year": 1975,
+  "director": "avemariaaaaaa",
+  "duration": 130,
+  "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+  "genre": [
+    "Crime",
+    "Drama"
+  ]
+}
+
+###
+PATCH http://localhost:1234/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+Content-Type: application/json
+
+{
+  "title" : "aaaa"
+}
+###
+DELETE http://localhost:1234/movies/6d522a7c-2b98-4e99-96bd-d7ac37da0a7d
+
+
+
+
+
+
+
+
+
